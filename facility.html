@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACILITY</title>
+<style>
+    body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e4ee;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+}
+
+header {
+    color: black;
+    background-size: cover;
+    background-image: url(Pictures/header.jpg);
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+header h1 {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    background-color: #80bfe4;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #80bfe4;
+}
+
+
+main {
+    flex: 1;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+.facility-section h2 {
+    color: black;
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.facility-section p {
+    color: black;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+.facility-section hr {
+    border: none;
+    border-top: 3px solid black;
+    margin: 30px 0;
+}
+
+.facility-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #80bfe4;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <img src="Pictures/KTB LOGO.jpeg" alt="KAMPUNG TANJUNG BATU" class="logo" >
+        <h1>COMMUNITY OF KAMPUNG TANJUNG BATU</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="KTBhistory.html">HISTORY</a></li>
+                    <li><a href="Activities.html">ACTIVITY</a></li>
+                    <li><a href="facility.html">FACILITY</a></li>
+                    
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="facility-section">
+                <h2> &#126; FACILITY &#126;</h2>
+
+
+                <img src="Pictures/DEWAN.jpg" alt="DEWAN">
+                <p> &#9830; DEWAN </p>
+                <p>The hall in Kampung Tanjung Batu is designed to be versatile and suitable for various activities and events. It serves as a gathering place for weddings, joint work activities, and many other community events.</p>
+                <hr>
+
+                <img src="Pictures/project rumah rakyat.jpg" alt="project rumah rakyat">
+                <p> &#9830; PROJECT RUMAH RAKYAT </p>
+                <p>This rakyat house project was developed to ensure that house prices are affordable. The State Government is committed to continuing to study and improve the Perak State Housing Policy. This policy ensures that every housing scheme development exceeding 20 acres will provide houses at a price as low as RM90,000 per unit, with a certain percentage for each housing category.</p>
+
+                <hr>
+
+                <img src="Pictures/surau.jpg" alt="surau">
+                <p> &#9830;SURAU </p>
+                <p>Surau Al Taufikiah Kampung Tanjung Batu functions as a joint worship space, religious education, and community gathering and fosters a spiritual atmosphere for the congregation. Its layout and features are carefully designed to support the various religious and social activities that take place within.</p>
+
+                
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+
+    <p><i>Copyright &#169; 2024 KAMPUNG TANJUNG BATU. All Rights Reserved.</i> </p>
+
+        
+    
+</footer>
+</body>
+</html>
